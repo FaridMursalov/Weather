@@ -1,0 +1,108 @@
+* {
+    color: white;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./smap-weather.jpg);
+
+}
+
+.container {
+    /* color: #1D2A35 ; */
+    padding: 15px;
+    background-color: #0479;
+    border-radius: 30px;
+    width: 23rem;
+    min-height: 60vh;
+    border: 1px solid gra;
+    box-shadow: 0px 0px 20px 10px rgba(128, 128, 128, 0.316);
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.weatherIcon {
+    padding-top: 30px;
+    width: 70px;
+
+}
+
+.temp-c {
+    margin-top: 15px;
+    display: flex;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.temp-c span {
+    font-size: 25px;
+}
+
+.city {
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.min-max {
+    margin-top: 45px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.realFeel {
+    border: 0px solid;
+    padding: 5px;
+    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+
+    align-items: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+.icon i {
+    font-size: 25px;
+}
+
+.realFeel .ty-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+
+
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
